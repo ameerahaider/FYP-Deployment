@@ -1,0 +1,2692 @@
+{
+  "contractName": "DefaultTerms",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "defaultTerms",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
+    {
+      "inputs": [],
+      "name": "getDefaultTerms",
+      "outputs": [
+        {
+          "internalType": "string[]",
+          "name": "",
+          "type": "string[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"defaultTerms\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getDefaultTerms\",\"outputs\":[{\"internalType\":\"string[]\",\"name\":\"\",\"type\":\"string[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/DefaultTerms.sol\":\"DefaultTerms\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"project:/contracts/DefaultTerms.sol\":{\"keccak256\":\"0xca4324dea56137108df86cfa2407e93a70a355431f5edad4ba6ed6fead96329d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bb3bc96b2a140524e4c9a50b9d242516dc625a67df15128d7e8a2c0932e6c641\",\"dweb:/ipfs/QmU1AgJMqEWFAQKgbc9y8vCjf4TmiRjeC85ji2j9scYFtQ\"]}},\"version\":1}",
+  "bytecode": "0x60806040523462001b49576000805468010000000000000000908181101562001b355762000034600191828101855562001b4e565b62001b21576200005062000049825462001b7c565b8262001bb9565b609581558352602091828420927f4c414e444c4f52443a205468652070617274792077686f206f776e732074686584557f2070726f706572747920616e64206973206c656173696e6720697420746f207483850155693432903a32b730b73a1760b11b60028095015584548281101562001add578084620000d49201875562001b4e565b62001ac957620000e5815462001b7c565b601f811162001af1575b50607d815585527f207468652070726f70657274792066726f6d20746865206c6573736f722e0000838287207f54454e414e543a205468652070617274792077686f2069732072656e74696e678155015584548281101562001add5780846200015b9201875562001b4e565b62001ac9576200017062000049825462001b7c565b60ad815585527f7365642028652e672e2c203132206d6f6e746873292e00000000000000000000848287207f4c45415345204455524154494f4e3a20546865206475726174696f6e20666f7281557f207768696368207468652070726f7065727479206973206265696e67206c656186820155015584548281101562001add578084620002009201875562001b4e565b62001ac9576200021562000049825462001b7c565b60a1815585526f3733903a343290383937b832b93a3c9760811b848287207f52454e5420414d4f554e543a2054686520616d6f756e7420706169642062792081557f7468652074656e616e7420746f20746865206c6573736f7220666f722075736986820155015584548281101562001add578084620002989201875562001b4e565b62001ac957620002ad62000049825462001b7c565b60c1815585527f652070616964206f6e2074686520317374206f662065616368206d6f6e74682e848287207f52454e54205041594d454e543a2054686520616d6f756e74207061696420627981557f207468652074656e616e7420746f20746865206c6573736f72206d757374206286820155015584548281101562001add5780846200033d9201875562001b4e565b62001ac9576200035962000352825462001b7c565b8262001bf6565b60e781558552808520917f4c4154452052454e543a2054686572652069732061206772616365207065726983557f6f64206f662031207765656b20666f72206c6174652072656e742c2061667465848401557f7220776869636820612032252066696e65206d75737420626520616464656420858401557f746f207468652072656e7420616d6f756e742e0000000000000000000000000060038094015585548181101562001ab5578085620004129201885562001b4e565b62001aa1576200042762000352825462001b7c565b60c9815586526332b73a1760e11b838388207f5345435552495459204445504f5349543a204120726566756e6461626c65206181557f6d6f756e742070616964206279207468652074656e616e742061732073656375878201557f7269747920616761696e73742064616d61676573206f7220756e70616964207288820155015585548181101562001ab5578085620004c39201885562001b4e565b62001aa157620004d862000049825462001b7c565b60b9815586527f696e636c7564656420696e207468652072656e7420616d6f756e742e00000000858388207f5554494c49544945533a2053657276696365732073756368206173207761746581557f722c20656c6563747269636974792c20616e642067617320617265206e6f742087820155015585548181101562001ab5578085620005689201885562001b4e565b62001aa157908162000581620000498895945462001b7c565b6083815587528187207f5554494c49544945533a20416c6c207574696c6974792073657276696365732081557f62696c6c73206d7573742062652070616964206279207468652074656e616e7486820155601760f91b968791015586548181101562001a8d578086620005f79201895562001b4e565b62001a79576200060c62000352825462001b7c565b60d1815587526732b0b734b733949760c11b848389207f4d41494e54454e414e43453a2054656e616e7420697320726573706f6e73696281557f6c6520666f72206d696e6f72206d61696e74656e616e63652028652e672e2c20888201557f6368616e67696e67206c696768742062756c62732c20726567756c617220636c86820155015586548181101562001a8d578086620006ac9201895562001b4e565b62001a7957620006c162000352825462001b7c565b60e7815587527f74727563747572616c2072657061697273292e00000000000000000000000000848389207f4d41494e54454e414e43453a204c616e646c6f726420697320726573706f6e7381557f69626c6520666f72206d616a6f72207265706169727320616e64206d61696e74888201557f656e616e63652028652e672e2c20706c756d62696e67206973737565732c207386820155015586548181101562001a8d578086620007769201895562001b4e565b62001a79576200078b62000352825462001b7c565b60cf81558752663837b93a30b61760c91b848389207f4d41494e54454e414e43453a204120646973707574652063616e20626520726181557f69736564206279207468652074656e616e7420616e64207265736f6c76656420888201557f627920746865206c616e646c6f7264207468726f7567682072656e74696e672086820155015586548181101562001a8d5780866200082a9201895562001b4e565b62001a79576200083f62000352825462001b7c565b60cf815587526634b9b9b4b7b71760c91b848389207f5355424c454153494e473a2050726f7065727479206d757374206f6e6c79206281557f65207573656420666f72207265736964656e7469616c20707572706f73657320888201557f6f6e6c792c206e6f207375626c656173696e6720776974686f7574207065726d86820155015586548181101562001a8d578086620008de9201895562001b4e565b62001a7957620008fa620008f3825462001b7c565b8262001c33565b61011f81558752818720957f414c5445524154494f4e533a2054656e616e74206d757374206f627461696e2087557f7772697474656e207065726d697373696f6e2066726f6d20746865206c616e64868801557f6c6f7264206265666f7265206d616b696e6720616e7920616c7465726174696f848801557f6e732c20696d70726f76656d656e74732c206f72206164646974696f6e732074858801556e37903a343290383937b832b93a3c9760891b60048098015587548281101562001a66578087620009cb92018a5562001b4e565b62001a5457620009e0620008f3825462001b7c565b61010381558852868389207f4755455354533a2054656e616e742061677265657320746f206265207265737081557f6f6e7369626c6520666f722074686520636f6e64756374206f66207468656972888201557f20677565737473206f6e207468652070726f706572747920616e6420656e7375868201557f726573207468657920636f6d706c792077697468206c65617365207465726d73878201550155865481811015620019f757808662000a9a9201895562001b4e565b620019e55762000aaf62000352825462001b7c565b60ed815587527f6f7220616e20657874656e64656420706572696f642e00000000000000000000848389207f4e4f54494345204f4620414253454e43453a2054656e616e742061677265657381557f20746f206e6f7469667920746865206c616e646c6f7264206966207468657920888201557f77696c6c20626520617761792066726f6d207468652070726f70657274792066868201550155865481811015620019f757808662000b649201895562001b4e565b620019e5578062000b7b620008f389935462001b7c565b6101079081815589528389207f454d455247454e435920434f4e54414354533a2054656e616e74206d7573742081557f70726f7669646520656d657267656e637920636f6e7461637420696e666f726d888201557f6174696f6e2c207375636820617320612064657369676e617465642070657273868201557f6f6e20746f20726561636820696e2063617365206f6620656d657267656e6369878201556232b99760e91b928391015588548381101562001a1c57808862000c4092018b5562001b4e565b62001a0a5762000c5c62000c55825462001b7c565b8262001c6f565b610157908181558a526a31b4103230b6b0b3b2b99760a91b6005868c207f50524f50455254592044414d4147453a2054656e616e7420616772656573207481557f6f207265706f727420616e792064616d616765732063617573656420627920748b8201557f68656d206f72207468656972206775657374732070726f6d70746c7920616e64898201557f20697320726573706f6e7369626c6520666f7220726570616972696e67206f728a8201557f207265696d62757273696e6720746865206c616e646c6f726420666f722073758c820155015589548481101562001a4157808962000d4d92018c5562001b4e565b62001a2f5762000d6262000352825462001b7c565b60e181558a526f3634b7339033bab4b232b634b732b99760811b87868c207f574153544520444953504f53414c3a2054656e616e742061677265657320746f81557f20646973706f7365206f662077617374652070726f7065726c792c20666f6c6c8b8201557f6f77696e67206c6f63616c206f7264696e616e63657320616e6420726563796389820155015589548481101562001a4157808962000e0a92018c5562001b4e565b62001a2f5762000e1f62000c55825462001b7c565b61015981558a526b3c9032b8bab4b836b2b73a1760a11b6005868c207f46495245205341464554593a2054656e616e742061677265657320746f20666f81557f6c6c6f7720666972652073616665747920726567756c6174696f6e732c2073758b8201557f6368206173206e6f7420626c6f636b696e672065786974732c206b656570696e898201557f6720736d6f6b65206465746563746f7273206f7065726174696f6e616c2c20618a8201557f6e64206e6f742074616d706572696e67207769746820666972652073616665748c820155015589548481101562001a4157808962000f0f92018c5562001b4e565b62001a2f5762000f2462000352825462001b7c565b60ed81558a527f636f64657320616e6420726567756c6174696f6e732e0000000000000000000087868c207f484f5553494e4720434f444520434f4d504c49414e43453a204c616e646c6f7281557f64206167726565732074686174207468652070726f706572747920636f6d706c8b8201557f696573207769746820616c6c206170706c696361626c6520686f7573696e672089820155015589548481101562001a4157808962000fd992018c5562001b4e565b62001a2f5762000fee62000352825462001b7c565b60dd81558a526d18903bb2b2b5903737ba34b1b29760911b87868c207f454e5452593a204c616e646c6f7264206861732074686520726967687420746f81557f20656e746572207468652070726f706572747920666f7220696e7370656374698b8201557f6f6e732c20726570616972732c206f722073686f77696e67732c20776974682089820155015589548481101562001a415780896200109492018c5562001b4e565b62001a2f57620010a962000049825462001b7c565b60a181558a526f313c9032b4ba3432b9103830b93a3c9760811b86868c207f5445524d494e4154494f4e3a20436f6e646974696f6e7320756e64657220776881557f69636820746865206c656173652063616e206265207465726d696e61746564208b820155015589548481101562001a415780896200112c92018c5562001b4e565b62001a2f576200114162000c55825462001b7c565b61016b81558a527f6565206265666f7265206d6f76696e67206f75742e00000000000000000000006005868c207f4c414e444c4f5244204541524c59205445524d494e4154494f4e3a204966206c81557f616e646c6f7264207465726d696e61746573207468652061677265656d656e748b8201557f206265666f7265207465726d696e6174696f6e20646174652c20746865207465898201557f6e616e742077696c6c20626520616c6c6f77656420746f2073746179206f6e208a8201557f7468652070726f706572747920666f722031206d6f6e74682072656e742066728c820155015589548481101562001a415780896200124292018c5562001b4e565b91909162001a2f57620012616200125a835462001b7c565b8362001c6f565b815589526a3a3c903232b837b9b4ba1760a91b6005858b207f54454e414e54204541524c59205445524d494e4154494f4e3a2049662074656e81557f616e74207465726d696e61746573207468652061677265656d656e74206265668a8201557f6f7265207465726d696e6174696f6e20646174652c20746865206c616e646c6f888201557f726420697320656e7469746c656420746f2031206d6f6e74682072656e742077898201557f686963682069732064656475637465642066726f6d20746865207365637572698b820155015588548381101562001a1c5780886200134d92018b5562001b4e565b62001a0a576200136262000352825462001b7c565b60c581558952613c9760f11b86858b207f52454e4557414c3a204166746572207465726d696e6174696f6e20646174652081557f6120636f6e7472616374206d61792062652072656e65776564206279207468658a8201557f2074656e616e74206279207265626f6f6b696e67207468652070726f7065727488820155015588548381101562001a1c578088620013fc92018b5562001b4e565b62001a0a5762001411620008f3825462001b7c565b610139815589527f72656520737461792c2066726f6d20746865206c616e646c6f72642e0000000088858b207f50524f504552545920464f522053414c453a2054656e616e742061677265657381557f20746f20616c6c6f77207468652070726f706572747920746f2062652073686f8a8201557f776e20746f20706f74656e7469616c20627579657273206f722072656e746572888201557f7320776974682031206d6f6e7468206e6f7469636520616e642072656e74206689820155015588548381101562001a1c578088620014ec92018b5562001b4e565b62001a0a576200150162000c55825462001b7c565b610165815589527139103330b6b4b634b0b61039ba30ba3ab99760711b6005858b207f4e4f4e2d4449534352494d494e4154494f4e3a20426f7468207061727469657381557f20616772656520746f20636f6d706c792077697468206661697220686f7573698a8201557f6e67206c61777320616e64206e6f74206469736372696d696e61746520626173888201557f6564206f6e20726163652c20636f6c6f722c2072656c6967696f6e2c20736578898201557f2c206e6174696f6e616c206f726967696e2c206469736162696c6974792c206f8b820155015588548381101562001a1c578088620015f792018b5562001b4e565b62001a0a576200160c62000352825462001b7c565b60ff815589527f6f6e2c206279206d61696c2c206f7220656c656374726f6e6963616c6c792e0086858b207f4e4f544943452044454c49564552593a204e6f746963657320616e6420636f6d81557f6d756e69636174696f6e73206265747765656e206c616e646c6f726420616e648a8201557f2074656e616e742063616e2062652064656c69766572656420696e207065727388820155015588548381101562001a1c578088620016c192018b5562001b4e565b62001a0a57620016d662000352825462001b7c565b60e5815589527137323637b9321030b732103a32b730b73a1760711b86858b207f4e4f5449434520504552494f443a2041206e6f7469636520706572696f64206f81557f662031206d6f6e7468206d75737420626520697373756564206265666f7265208a8201557f7465726d696e6174696e6720746865206c6561736520627920626f7468206c6188820155015588548381101562001a1c5780886200178092018b5562001b4e565b91909162001a0a576200179f62001798835462001b7c565b8362001c33565b81558852868389207f4e4f54494345204f462053414c453a2054656e616e74206d757374206265206e81557f6f74696669656420696e20616476616e6365206966207468652070726f706572888201557f7479206973206265696e6720736f6c642c20776974682064657461696c73206f868201557f6e20746865206e6577206f776e6572277320726573706f6e736962696c697469878201550155865481811015620019f7578086620018569201895562001b4e565b620019e5576200186b62000049825462001b7c565b609f815587526e32b3b0b6363c903134b73234b7339760891b838389207f5349474e4154555245533a20426f74682070617274696573206d75737420617081557f70726f7665207468652061677265656d656e7420746f206d616b65206974206c888201550155865490811015620019d2578085620018ed9201885562001b4e565b620019c057917f636f6e73746974757465732074686520656e746972652061677265656d656e747f206265747765656e20746865207061727469657320616e642073757065727365926a3939ba30b73234b733b99760a91b988562001979620008f37f64657320616e79207072696f722061677265656d656e7473206f7220756e646599985462001b7c565b6101178155815220957f454e544952452041475245454d454e543a205468697320636f6e74726163742087558601558401558201550155604051610322908162001cad8239f35b634e487b7160e01b8752868652602487fd5b634e487b7160e01b875260418652602487fd5b634e487b7160e01b8852878752602488fd5b634e487b7160e01b885260418752602488fd5b634e487b7160e01b8a5289895260248afd5b634e487b7160e01b8a526041895260248afd5b634e487b7160e01b8b528a8a5260248bfd5b634e487b7160e01b8b5260418a5260248bfd5b634e487b7160e01b8952888852602489fd5b634e487b7160e01b895260418852602489fd5b634e487b7160e01b88526004889052602488fd5b634e487b7160e01b88526041600452602488fd5b634e487b7160e01b87526004879052602487fd5b634e487b7160e01b87526041600452602487fd5b634e487b7160e01b86526004869052602486fd5b634e487b7160e01b86526041600452602486fd5b8187528486601f858a20930160051c830192015b82811062001b15575050620000ef565b88815501859062001b05565b634e487b7160e01b84526004849052602484fd5b634e487b7160e01b83526041600452602483fd5b600080fd5b90600091825481101562001b685782805260208320019190565b634e487b7160e01b83526032600452602483fd5b90600182811c9216801562001bae575b602083101462001b9857565b634e487b7160e01b600052602260045260246000fd5b91607f169162001b8c565b601f821162001bc6575050565b60009081526003601f60208320930160051c830192015b82811062001bea57505050565b81815560010162001bdd565b601f821162001c03575050565b60009081526004601f60208320930160051c830192015b82811062001c2757505050565b81815560010162001c1a565b601f821162001c40575050565b60009081526005601f602083209301811c830192015b82811062001c6357505050565b81815560010162001c56565b601f821162001c7c575050565b60009081526006601f60208320930160051c830192015b82811062001ca057505050565b81815560010162001c9356fe604060808152600436101561001357600080fd5b6000803560e01c80633c0cf8b4146101345763c6418ab91461003457600080fd5b34610131578060031936011261013157805467ffffffffffffffff811161011d5782519160209261006a848460051b01826101a3565b82815281805283810192827f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563855b8383106100f957505050508451938085019181865251809252858501958260051b8601019392955b8287106100cd5785850386f35b9091929382806100e9600193603f198a820301865288516102ac565b96019201960195929190926100c0565b600188819261010b859b98999b6101db565b81520192019201919096949396610098565b634e487b7160e01b82526041600452602482fd5b80fd5b50903461019f57602036600319011261019f57600435825481101561019b57610184908361019794527f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563016101db565b90519182916020835260208301906102ac565b0390f35b8280fd5b5080fd5b90601f8019910116810190811067ffffffffffffffff8211176101c557604052565b634e487b7160e01b600052604160045260246000fd5b90604051906000835490600182811c908084169687156102a2575b602094858410891461028e578798848997989952908160001461026c575060011461022d575b50505061022b925003836101a3565b565b600090815285812095935091905b81831061025457505061022b935082010138808061021c565b8554888401850152948501948794509183019161023b565b9250505061022b94925060ff191682840152151560051b82010138808061021c565b634e487b7160e01b85526022600452602485fd5b91607f16916101f6565b919082519283825260005b8481106102d8575050826000602080949584010152601f8019910116010190565b6020818301810151848301820152016102b756fea264697066735822122075706ac1b174b7ba6b4f6f7914887d78dbef494a52211682631df684aa91863d64736f6c63430008130033",
+  "deployedBytecode": "0x604060808152600436101561001357600080fd5b6000803560e01c80633c0cf8b4146101345763c6418ab91461003457600080fd5b34610131578060031936011261013157805467ffffffffffffffff811161011d5782519160209261006a848460051b01826101a3565b82815281805283810192827f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563855b8383106100f957505050508451938085019181865251809252858501958260051b8601019392955b8287106100cd5785850386f35b9091929382806100e9600193603f198a820301865288516102ac565b96019201960195929190926100c0565b600188819261010b859b98999b6101db565b81520192019201919096949396610098565b634e487b7160e01b82526041600452602482fd5b80fd5b50903461019f57602036600319011261019f57600435825481101561019b57610184908361019794527f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563016101db565b90519182916020835260208301906102ac565b0390f35b8280fd5b5080fd5b90601f8019910116810190811067ffffffffffffffff8211176101c557604052565b634e487b7160e01b600052604160045260246000fd5b90604051906000835490600182811c908084169687156102a2575b602094858410891461028e578798848997989952908160001461026c575060011461022d575b50505061022b925003836101a3565b565b600090815285812095935091905b81831061025457505061022b935082010138808061021c565b8554888401850152948501948794509183019161023b565b9250505061022b94925060ff191682840152151560051b82010138808061021c565b634e487b7160e01b85526022600452602485fd5b91607f16916101f6565b919082519283825260005b8481106102d8575050826000602080949584010152601f8019910116010190565b6020818301810151848301820152016102b756fea264697066735822122075706ac1b174b7ba6b4f6f7914887d78dbef494a52211682631df684aa91863d64736f6c63430008130033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "61:6025:1:-:0;;;;;;208:12;61:6025;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;-1:-1:-1;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;:::i;:::-;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;:::i;:::-;;;:::i;:::-;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;:::i;:::-;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;208:12;61:6025;;;;;;;;;;;;;;;;;:::o;:::-;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;-1:-1:-1;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;:::o;:::-;-1:-1:-1;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;:::o;:::-;-1:-1:-1;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;:::o;:::-;-1:-1:-1;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "61:6025:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;-1:-1:-1;;61:6025:1;;;;;;;;90:28;;;;;61:6025;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;:::i;:::-;;;;90:28;;;;61:6025;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;-1:-1:-1;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;:::o;:::-;-1:-1:-1;61:6025:1;;;;;;;;-1:-1:-1;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;61:6025:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.19;\r\n\r\ncontract DefaultTerms {\r\n    string[] public defaultTerms;\r\n\r\n    constructor() {\r\n        // Initialize default terms in the constructor\r\n        defaultTerms.push(\r\n            \"LANDLORD: The party who owns the property and is leasing it to the tenant.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"TENANT: The party who is renting the property from the lessor.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"LEASE DURATION: The duration for which the property is being leased (e.g., 12 months).\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"RENT AMOUNT: The amount paid by the tenant to the lessor for using the property.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"RENT PAYMENT: The amount paid by the tenant to the lessor must be paid on the 1st of each month.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"LATE RENT: There is a grace period of 1 week for late rent, after which a 2% fine must be added to the rent amount.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"SECURITY DEPOSIT: A refundable amount paid by the tenant as security against damages or unpaid rent.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"UTILITIES: Services such as water, electricity, and gas are not included in the rent amount.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"UTILITIES: All utility services bills must be paid by the tenant.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"MAINTENANCE: Tenant is responsible for minor maintenance (e.g., changing light bulbs, regular cleaning).\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"MAINTENANCE: Landlord is responsible for major repairs and maintenance (e.g., plumbing issues, structural repairs).\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"MAINTENANCE: A dispute can be raised by the tenant and resolved by the landlord through renting portal.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"SUBLEASING: Property must only be used for residential purposes only, no subleasing without permission.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"ALTERATIONS: Tenant must obtain written permission from the landlord before making any alterations, improvements, or additions to the property.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"GUESTS: Tenant agrees to be responsible for the conduct of their guests on the property and ensures they comply with lease terms.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"NOTICE OF ABSENCE: Tenant agrees to notify the landlord if they will be away from the property for an extended period.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"EMERGENCY CONTACTS: Tenant must provide emergency contact information, such as a designated person to reach in case of emergencies.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"PROPERTY DAMAGE: Tenant agrees to report any damages caused by them or their guests promptly and is responsible for repairing or reimbursing the landlord for such damages.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"WASTE DISPOSAL: Tenant agrees to dispose of waste properly, following local ordinances and recycling guidelines.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"FIRE SAFETY: Tenant agrees to follow fire safety regulations, such as not blocking exits, keeping smoke detectors operational, and not tampering with fire safety equipment.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"HOUSING CODE COMPLIANCE: Landlord agrees that the property complies with all applicable housing codes and regulations.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"ENTRY: Landlord has the right to enter the property for inspections, repairs, or showings, with 1 week notice.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"TERMINATION: Conditions under which the lease can be terminated by either party.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"LANDLORD EARLY TERMINATION: If landlord terminates the agreement before termination date, the tenant will be allowed to stay on the property for 1 month rent free before moving out.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"TENANT EARLY TERMINATION: If tenant terminates the agreement before termination date, the landlord is entitled to 1 month rent which is deducted from the security deposit.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"RENEWAL: After termination date a contract may be renewed by the tenant by rebooking the property.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"PROPERTY FOR SALE: Tenant agrees to allow the property to be shown to potential buyers or renters with 1 month notice and rent free stay, from the landlord.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"NON-DISCRIMINATION: Both parties agree to comply with fair housing laws and not discriminate based on race, color, religion, sex, national origin, disability, or familial status.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"NOTICE DELIVERY: Notices and communications between landlord and tenant can be delivered in person, by mail, or electronically.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"NOTICE PERIOD: A notice period of 1 month must be issued before terminating the lease by both landlord and tenant.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"NOTICE OF SALE: Tenant must be notified in advance if the property is being sold, with details on the new owner's responsibilities.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"SIGNATURES: Both parties must approve the agreement to make it legally binding.\"\r\n        );\r\n\r\n        defaultTerms.push(\r\n            \"ENTIRE AGREEMENT: This contract constitutes the entire agreement between the parties and supersedes any prior agreements or understandings.\"\r\n        );\r\n    }\r\n\r\n    function getDefaultTerms() external view returns (string[] memory) {\r\n        return defaultTerms;\r\n    }\r\n}\r\n",
+  "sourcePath": "D:\\Fast\\Sem 8\\FYP_Final\\TranspaRent\\Blockchain\\contracts\\DefaultTerms.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/DefaultTerms.sol",
+    "exportedSymbols": {
+      "DefaultTerms": [
+        1245
+      ]
+    },
+    "id": 1246,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1030,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".19"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "DefaultTerms",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1245,
+        "linearizedBaseContracts": [
+          1245
+        ],
+        "name": "DefaultTerms",
+        "nameLocation": "70:12:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "functionSelector": "3c0cf8b4",
+            "id": 1033,
+            "mutability": "mutable",
+            "name": "defaultTerms",
+            "nameLocation": "106:12:1",
+            "nodeType": "VariableDeclaration",
+            "scope": 1245,
+            "src": "90:28:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+              "typeString": "string[]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 1031,
+                "name": "string",
+                "nodeType": "ElementaryTypeName",
+                "src": "90:6:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                }
+              },
+              "id": 1032,
+              "nodeType": "ArrayTypeName",
+              "src": "90:8:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_string_storage_$dyn_storage_ptr",
+                "typeString": "string[]"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1234,
+              "nodeType": "Block",
+              "src": "141:5829:1",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "4c414e444c4f52443a205468652070617274792077686f206f776e73207468652070726f706572747920616e64206973206c656173696e6720697420746f207468652074656e616e742e",
+                        "id": 1039,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "240:76:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_6460563f6a8c3cff7403fa11dcac45f274b9b4b83e19e41cee2cdcd6144c57e2",
+                          "typeString": "literal_string \"LANDLORD: The party who owns the property and is leasing it to the tenant.\""
+                        },
+                        "value": "LANDLORD: The party who owns the property and is leasing it to the tenant."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_6460563f6a8c3cff7403fa11dcac45f274b9b4b83e19e41cee2cdcd6144c57e2",
+                          "typeString": "literal_string \"LANDLORD: The party who owns the property and is leasing it to the tenant.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1036,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "208:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1038,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "221:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "208:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1040,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "208:119:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1041,
+                  "nodeType": "ExpressionStatement",
+                  "src": "208:119:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "54454e414e543a205468652070617274792077686f2069732072656e74696e67207468652070726f70657274792066726f6d20746865206c6573736f722e",
+                        "id": 1045,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "372:64:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_0d41ccc3998a6a1a549410c8fcbdaa6d4b18eaf88e8f10d3b10983195b199877",
+                          "typeString": "literal_string \"TENANT: The party who is renting the property from the lessor.\""
+                        },
+                        "value": "TENANT: The party who is renting the property from the lessor."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_0d41ccc3998a6a1a549410c8fcbdaa6d4b18eaf88e8f10d3b10983195b199877",
+                          "typeString": "literal_string \"TENANT: The party who is renting the property from the lessor.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1042,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "340:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1044,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "353:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "340:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1046,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "340:107:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1047,
+                  "nodeType": "ExpressionStatement",
+                  "src": "340:107:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "4c45415345204455524154494f4e3a20546865206475726174696f6e20666f72207768696368207468652070726f7065727479206973206265696e67206c65617365642028652e672e2c203132206d6f6e746873292e",
+                        "id": 1051,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "492:88:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_e4bebb14a7f5d90a09d71b3c9735cacc871012ad50ca5f3596e788a51d9aa30b",
+                          "typeString": "literal_string \"LEASE DURATION: The duration for which the property is being leased (e.g., 12 months).\""
+                        },
+                        "value": "LEASE DURATION: The duration for which the property is being leased (e.g., 12 months)."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_e4bebb14a7f5d90a09d71b3c9735cacc871012ad50ca5f3596e788a51d9aa30b",
+                          "typeString": "literal_string \"LEASE DURATION: The duration for which the property is being leased (e.g., 12 months).\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1048,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "460:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1050,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "473:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "460:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1052,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "460:131:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1053,
+                  "nodeType": "ExpressionStatement",
+                  "src": "460:131:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "52454e5420414d4f554e543a2054686520616d6f756e742070616964206279207468652074656e616e7420746f20746865206c6573736f7220666f72207573696e67207468652070726f70657274792e",
+                        "id": 1057,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "636:82:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_488a40aef9df10bdb93f4cf9d28f1ab892b83cb84794e48bcbf46b5feb3b1529",
+                          "typeString": "literal_string \"RENT AMOUNT: The amount paid by the tenant to the lessor for using the property.\""
+                        },
+                        "value": "RENT AMOUNT: The amount paid by the tenant to the lessor for using the property."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_488a40aef9df10bdb93f4cf9d28f1ab892b83cb84794e48bcbf46b5feb3b1529",
+                          "typeString": "literal_string \"RENT AMOUNT: The amount paid by the tenant to the lessor for using the property.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1054,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "604:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1056,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "617:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "604:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1058,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "604:125:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1059,
+                  "nodeType": "ExpressionStatement",
+                  "src": "604:125:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "52454e54205041594d454e543a2054686520616d6f756e742070616964206279207468652074656e616e7420746f20746865206c6573736f72206d7573742062652070616964206f6e2074686520317374206f662065616368206d6f6e74682e",
+                        "id": 1063,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "774:98:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_a839d4ac8779e8d18c813ee7859687bddf9fe2ac963870d3b9f2d47374e5875b",
+                          "typeString": "literal_string \"RENT PAYMENT: The amount paid by the tenant to the lessor must be paid on the 1st of each month.\""
+                        },
+                        "value": "RENT PAYMENT: The amount paid by the tenant to the lessor must be paid on the 1st of each month."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_a839d4ac8779e8d18c813ee7859687bddf9fe2ac963870d3b9f2d47374e5875b",
+                          "typeString": "literal_string \"RENT PAYMENT: The amount paid by the tenant to the lessor must be paid on the 1st of each month.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1060,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "742:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1062,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "755:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "742:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1064,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "742:141:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1065,
+                  "nodeType": "ExpressionStatement",
+                  "src": "742:141:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "4c4154452052454e543a205468657265206973206120677261636520706572696f64206f662031207765656b20666f72206c6174652072656e742c20616674657220776869636820612032252066696e65206d75737420626520616464656420746f207468652072656e7420616d6f756e742e",
+                        "id": 1069,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "928:117:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_d894b1e9826ba29d51b149171fe3f37bbfba2bbbea582420bbcb5d2acb1c567a",
+                          "typeString": "literal_string \"LATE RENT: There is a grace period of 1 week for late rent, after which a 2% fine must be added to the rent amount.\""
+                        },
+                        "value": "LATE RENT: There is a grace period of 1 week for late rent, after which a 2% fine must be added to the rent amount."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_d894b1e9826ba29d51b149171fe3f37bbfba2bbbea582420bbcb5d2acb1c567a",
+                          "typeString": "literal_string \"LATE RENT: There is a grace period of 1 week for late rent, after which a 2% fine must be added to the rent amount.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1066,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "896:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1068,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "909:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "896:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1070,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "896:160:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1071,
+                  "nodeType": "ExpressionStatement",
+                  "src": "896:160:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "5345435552495459204445504f5349543a204120726566756e6461626c6520616d6f756e742070616964206279207468652074656e616e7420617320736563757269747920616761696e73742064616d61676573206f7220756e706169642072656e742e",
+                        "id": 1075,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1101:102:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_1216405755225f61ea350cb9fee00e5655fd0f45f127687689958f6259226d3e",
+                          "typeString": "literal_string \"SECURITY DEPOSIT: A refundable amount paid by the tenant as security against damages or unpaid rent.\""
+                        },
+                        "value": "SECURITY DEPOSIT: A refundable amount paid by the tenant as security against damages or unpaid rent."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_1216405755225f61ea350cb9fee00e5655fd0f45f127687689958f6259226d3e",
+                          "typeString": "literal_string \"SECURITY DEPOSIT: A refundable amount paid by the tenant as security against damages or unpaid rent.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1072,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "1069:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1074,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1082:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "1069:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1076,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1069:145:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1077,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1069:145:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "5554494c49544945533a20536572766963657320737563682061732077617465722c20656c6563747269636974792c20616e642067617320617265206e6f7420696e636c7564656420696e207468652072656e7420616d6f756e742e",
+                        "id": 1081,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1259:94:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_2b76365c58d08cd64feac594645a297b6476718fcbf7e91da6b8ba6eb44d7b77",
+                          "typeString": "literal_string \"UTILITIES: Services such as water, electricity, and gas are not included in the rent amount.\""
+                        },
+                        "value": "UTILITIES: Services such as water, electricity, and gas are not included in the rent amount."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_2b76365c58d08cd64feac594645a297b6476718fcbf7e91da6b8ba6eb44d7b77",
+                          "typeString": "literal_string \"UTILITIES: Services such as water, electricity, and gas are not included in the rent amount.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1078,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "1227:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1080,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1240:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "1227:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1082,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1227:137:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1083,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1227:137:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "5554494c49544945533a20416c6c207574696c6974792073657276696365732062696c6c73206d7573742062652070616964206279207468652074656e616e742e",
+                        "id": 1087,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1409:67:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_2d9e39b09624ff591d000a7efc03f6498bfda30c88e6e346370c23ec2f9d1e95",
+                          "typeString": "literal_string \"UTILITIES: All utility services bills must be paid by the tenant.\""
+                        },
+                        "value": "UTILITIES: All utility services bills must be paid by the tenant."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_2d9e39b09624ff591d000a7efc03f6498bfda30c88e6e346370c23ec2f9d1e95",
+                          "typeString": "literal_string \"UTILITIES: All utility services bills must be paid by the tenant.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1084,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "1377:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1086,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1390:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "1377:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1088,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1377:110:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1089,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1377:110:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "4d41494e54454e414e43453a2054656e616e7420697320726573706f6e7369626c6520666f72206d696e6f72206d61696e74656e616e63652028652e672e2c206368616e67696e67206c696768742062756c62732c20726567756c617220636c65616e696e67292e",
+                        "id": 1093,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1532:106:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_dbb2e2ca162016b88a5859ec39467a8100982658810babf8fae8f6740b4e110b",
+                          "typeString": "literal_string \"MAINTENANCE: Tenant is responsible for minor maintenance (e.g., changing light bulbs, regular cleaning).\""
+                        },
+                        "value": "MAINTENANCE: Tenant is responsible for minor maintenance (e.g., changing light bulbs, regular cleaning)."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_dbb2e2ca162016b88a5859ec39467a8100982658810babf8fae8f6740b4e110b",
+                          "typeString": "literal_string \"MAINTENANCE: Tenant is responsible for minor maintenance (e.g., changing light bulbs, regular cleaning).\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1090,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "1500:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1092,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1513:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "1500:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1094,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1500:149:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1095,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1500:149:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "4d41494e54454e414e43453a204c616e646c6f726420697320726573706f6e7369626c6520666f72206d616a6f72207265706169727320616e64206d61696e74656e616e63652028652e672e2c20706c756d62696e67206973737565732c207374727563747572616c2072657061697273292e",
+                        "id": 1099,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1694:117:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_f335dfd73b3e49c7a1775cccc4f71dc5b6ca470e304ade6cb53c825a36772dfc",
+                          "typeString": "literal_string \"MAINTENANCE: Landlord is responsible for major repairs and maintenance (e.g., plumbing issues, structural repairs).\""
+                        },
+                        "value": "MAINTENANCE: Landlord is responsible for major repairs and maintenance (e.g., plumbing issues, structural repairs)."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_f335dfd73b3e49c7a1775cccc4f71dc5b6ca470e304ade6cb53c825a36772dfc",
+                          "typeString": "literal_string \"MAINTENANCE: Landlord is responsible for major repairs and maintenance (e.g., plumbing issues, structural repairs).\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1096,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "1662:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1098,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1675:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "1662:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1100,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1662:160:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1101,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1662:160:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "4d41494e54454e414e43453a204120646973707574652063616e20626520726169736564206279207468652074656e616e7420616e64207265736f6c76656420627920746865206c616e646c6f7264207468726f7567682072656e74696e6720706f7274616c2e",
+                        "id": 1105,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1867:105:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_c26e2d8b9ee825c73ce05ad1649cebbb2dc2452874d358578a70e49042c79bc9",
+                          "typeString": "literal_string \"MAINTENANCE: A dispute can be raised by the tenant and resolved by the landlord through renting portal.\""
+                        },
+                        "value": "MAINTENANCE: A dispute can be raised by the tenant and resolved by the landlord through renting portal."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_c26e2d8b9ee825c73ce05ad1649cebbb2dc2452874d358578a70e49042c79bc9",
+                          "typeString": "literal_string \"MAINTENANCE: A dispute can be raised by the tenant and resolved by the landlord through renting portal.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1102,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "1835:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1104,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1848:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "1835:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1106,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1835:148:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1107,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1835:148:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "5355424c454153494e473a2050726f7065727479206d757374206f6e6c79206265207573656420666f72207265736964656e7469616c20707572706f736573206f6e6c792c206e6f207375626c656173696e6720776974686f7574207065726d697373696f6e2e",
+                        "id": 1111,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "2028:105:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_c149693b013c3c7c581cec248b446d403fb870d479b68c366352b620dc7d6c9d",
+                          "typeString": "literal_string \"SUBLEASING: Property must only be used for residential purposes only, no subleasing without permission.\""
+                        },
+                        "value": "SUBLEASING: Property must only be used for residential purposes only, no subleasing without permission."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_c149693b013c3c7c581cec248b446d403fb870d479b68c366352b620dc7d6c9d",
+                          "typeString": "literal_string \"SUBLEASING: Property must only be used for residential purposes only, no subleasing without permission.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1108,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "1996:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1110,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "2009:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "1996:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1112,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1996:148:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1113,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1996:148:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "414c5445524154494f4e533a2054656e616e74206d757374206f627461696e207772697474656e207065726d697373696f6e2066726f6d20746865206c616e646c6f7264206265666f7265206d616b696e6720616e7920616c7465726174696f6e732c20696d70726f76656d656e74732c206f72206164646974696f6e7320746f207468652070726f70657274792e",
+                        "id": 1117,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "2189:145:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_b64802e8240a3ac20f145fbb5c4cb5d397d6b1350d4c485c6f4e71c2fb031087",
+                          "typeString": "literal_string \"ALTERATIONS: Tenant must obtain written permission from the landlord before making any alterations, improvements, or additions to the property.\""
+                        },
+                        "value": "ALTERATIONS: Tenant must obtain written permission from the landlord before making any alterations, improvements, or additions to the property."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_b64802e8240a3ac20f145fbb5c4cb5d397d6b1350d4c485c6f4e71c2fb031087",
+                          "typeString": "literal_string \"ALTERATIONS: Tenant must obtain written permission from the landlord before making any alterations, improvements, or additions to the property.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1114,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "2157:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1116,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "2170:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "2157:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1118,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "2157:188:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1119,
+                  "nodeType": "ExpressionStatement",
+                  "src": "2157:188:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "4755455354533a2054656e616e742061677265657320746f20626520726573706f6e7369626c6520666f722074686520636f6e64756374206f6620746865697220677565737473206f6e207468652070726f706572747920616e6420656e7375726573207468657920636f6d706c792077697468206c65617365207465726d732e",
+                        "id": 1123,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "2390:131:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_83950bbd275f36a3c757d62db7782626fd4ea0aa5552ae23d84966d538227f11",
+                          "typeString": "literal_string \"GUESTS: Tenant agrees to be responsible for the conduct of their guests on the property and ensures they comply with lease terms.\""
+                        },
+                        "value": "GUESTS: Tenant agrees to be responsible for the conduct of their guests on the property and ensures they comply with lease terms."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_83950bbd275f36a3c757d62db7782626fd4ea0aa5552ae23d84966d538227f11",
+                          "typeString": "literal_string \"GUESTS: Tenant agrees to be responsible for the conduct of their guests on the property and ensures they comply with lease terms.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1120,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "2358:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1122,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "2371:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "2358:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1124,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "2358:174:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1125,
+                  "nodeType": "ExpressionStatement",
+                  "src": "2358:174:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "4e4f54494345204f4620414253454e43453a2054656e616e742061677265657320746f206e6f7469667920746865206c616e646c6f726420696620746865792077696c6c20626520617761792066726f6d207468652070726f706572747920666f7220616e20657874656e64656420706572696f642e",
+                        "id": 1129,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "2577:120:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_7627023038f42433062f4cb325522dc6367627b76619e6824d337c41421491cb",
+                          "typeString": "literal_string \"NOTICE OF ABSENCE: Tenant agrees to notify the landlord if they will be away from the property for an extended period.\""
+                        },
+                        "value": "NOTICE OF ABSENCE: Tenant agrees to notify the landlord if they will be away from the property for an extended period."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_7627023038f42433062f4cb325522dc6367627b76619e6824d337c41421491cb",
+                          "typeString": "literal_string \"NOTICE OF ABSENCE: Tenant agrees to notify the landlord if they will be away from the property for an extended period.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1126,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "2545:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1128,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "2558:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "2545:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1130,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "2545:163:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1131,
+                  "nodeType": "ExpressionStatement",
+                  "src": "2545:163:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "454d455247454e435920434f4e54414354533a2054656e616e74206d7573742070726f7669646520656d657267656e637920636f6e7461637420696e666f726d6174696f6e2c207375636820617320612064657369676e6174656420706572736f6e20746f20726561636820696e2063617365206f6620656d657267656e636965732e",
+                        "id": 1135,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "2753:133:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_a1f1ff8a3195a6d34003f1dc56bee3155336e6d8fc4e97e48f6d3c19978df512",
+                          "typeString": "literal_string \"EMERGENCY CONTACTS: Tenant must provide emergency contact information, such as a designated person to reach in case of emergencies.\""
+                        },
+                        "value": "EMERGENCY CONTACTS: Tenant must provide emergency contact information, such as a designated person to reach in case of emergencies."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_a1f1ff8a3195a6d34003f1dc56bee3155336e6d8fc4e97e48f6d3c19978df512",
+                          "typeString": "literal_string \"EMERGENCY CONTACTS: Tenant must provide emergency contact information, such as a designated person to reach in case of emergencies.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1132,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "2721:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1134,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "2734:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "2721:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1136,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "2721:176:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1137,
+                  "nodeType": "ExpressionStatement",
+                  "src": "2721:176:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "50524f50455254592044414d4147453a2054656e616e742061677265657320746f207265706f727420616e792064616d6167657320636175736564206279207468656d206f72207468656972206775657374732070726f6d70746c7920616e6420697320726573706f6e7369626c6520666f7220726570616972696e67206f72207265696d62757273696e6720746865206c616e646c6f726420666f7220737563682064616d616765732e",
+                        "id": 1141,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "2942:173:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_00f63a4954dce2781e936527479bb6b9586550e540da814ec334e96ba39ab64f",
+                          "typeString": "literal_string \"PROPERTY DAMAGE: Tenant agrees to report any damages caused by them or their guests promptly and is responsible for repairing or reimbursing the landlord for such damages.\""
+                        },
+                        "value": "PROPERTY DAMAGE: Tenant agrees to report any damages caused by them or their guests promptly and is responsible for repairing or reimbursing the landlord for such damages."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_00f63a4954dce2781e936527479bb6b9586550e540da814ec334e96ba39ab64f",
+                          "typeString": "literal_string \"PROPERTY DAMAGE: Tenant agrees to report any damages caused by them or their guests promptly and is responsible for repairing or reimbursing the landlord for such damages.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1138,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "2910:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1140,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "2923:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "2910:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1142,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "2910:216:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1143,
+                  "nodeType": "ExpressionStatement",
+                  "src": "2910:216:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "574153544520444953504f53414c3a2054656e616e742061677265657320746f20646973706f7365206f662077617374652070726f7065726c792c20666f6c6c6f77696e67206c6f63616c206f7264696e616e63657320616e642072656379636c696e672067756964656c696e65732e",
+                        "id": 1147,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "3171:114:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_eff67b7174bf536cc0bf003b50defffc321f61b1ff7c6dee5b25a9af928f408b",
+                          "typeString": "literal_string \"WASTE DISPOSAL: Tenant agrees to dispose of waste properly, following local ordinances and recycling guidelines.\""
+                        },
+                        "value": "WASTE DISPOSAL: Tenant agrees to dispose of waste properly, following local ordinances and recycling guidelines."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_eff67b7174bf536cc0bf003b50defffc321f61b1ff7c6dee5b25a9af928f408b",
+                          "typeString": "literal_string \"WASTE DISPOSAL: Tenant agrees to dispose of waste properly, following local ordinances and recycling guidelines.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1144,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "3139:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1146,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "3152:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "3139:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1148,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "3139:157:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1149,
+                  "nodeType": "ExpressionStatement",
+                  "src": "3139:157:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "46495245205341464554593a2054656e616e742061677265657320746f20666f6c6c6f7720666972652073616665747920726567756c6174696f6e732c2073756368206173206e6f7420626c6f636b696e672065786974732c206b656570696e6720736d6f6b65206465746563746f7273206f7065726174696f6e616c2c20616e64206e6f742074616d706572696e6720776974682066697265207361666574792065717569706d656e742e",
+                        "id": 1153,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "3341:174:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_05a28a6a69d3ab568a424d5db8f665211d0d19b48048de52ec26ba9867bc88c5",
+                          "typeString": "literal_string \"FIRE SAFETY: Tenant agrees to follow fire safety regulations, such as not blocking exits, keeping smoke detectors operational, and not tampering with fire safety equipment.\""
+                        },
+                        "value": "FIRE SAFETY: Tenant agrees to follow fire safety regulations, such as not blocking exits, keeping smoke detectors operational, and not tampering with fire safety equipment."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_05a28a6a69d3ab568a424d5db8f665211d0d19b48048de52ec26ba9867bc88c5",
+                          "typeString": "literal_string \"FIRE SAFETY: Tenant agrees to follow fire safety regulations, such as not blocking exits, keeping smoke detectors operational, and not tampering with fire safety equipment.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1150,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "3309:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1152,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "3322:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "3309:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1154,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "3309:217:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1155,
+                  "nodeType": "ExpressionStatement",
+                  "src": "3309:217:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "484f5553494e4720434f444520434f4d504c49414e43453a204c616e646c6f7264206167726565732074686174207468652070726f706572747920636f6d706c696573207769746820616c6c206170706c696361626c6520686f7573696e6720636f64657320616e6420726567756c6174696f6e732e",
+                        "id": 1159,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "3571:120:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_d6876821857c9f77a844273b189f3e9e8f897d21ce663ac6dda46b42b9fbafb0",
+                          "typeString": "literal_string \"HOUSING CODE COMPLIANCE: Landlord agrees that the property complies with all applicable housing codes and regulations.\""
+                        },
+                        "value": "HOUSING CODE COMPLIANCE: Landlord agrees that the property complies with all applicable housing codes and regulations."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_d6876821857c9f77a844273b189f3e9e8f897d21ce663ac6dda46b42b9fbafb0",
+                          "typeString": "literal_string \"HOUSING CODE COMPLIANCE: Landlord agrees that the property complies with all applicable housing codes and regulations.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1156,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "3539:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1158,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "3552:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "3539:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1160,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "3539:163:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1161,
+                  "nodeType": "ExpressionStatement",
+                  "src": "3539:163:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "454e5452593a204c616e646c6f7264206861732074686520726967687420746f20656e746572207468652070726f706572747920666f7220696e7370656374696f6e732c20726570616972732c206f722073686f77696e67732c20776974682031207765656b206e6f746963652e",
+                        "id": 1165,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "3747:112:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_8725bd32f09bd65c8f47cf700d1289b11f1999ffd99177ce611c58d3f2afab0e",
+                          "typeString": "literal_string \"ENTRY: Landlord has the right to enter the property for inspections, repairs, or showings, with 1 week notice.\""
+                        },
+                        "value": "ENTRY: Landlord has the right to enter the property for inspections, repairs, or showings, with 1 week notice."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_8725bd32f09bd65c8f47cf700d1289b11f1999ffd99177ce611c58d3f2afab0e",
+                          "typeString": "literal_string \"ENTRY: Landlord has the right to enter the property for inspections, repairs, or showings, with 1 week notice.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1162,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "3715:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1164,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "3728:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "3715:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1166,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "3715:155:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1167,
+                  "nodeType": "ExpressionStatement",
+                  "src": "3715:155:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "5445524d494e4154494f4e3a20436f6e646974696f6e7320756e64657220776869636820746865206c656173652063616e206265207465726d696e61746564206279206569746865722070617274792e",
+                        "id": 1171,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "3915:82:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_6e1134e0c74377298f94eb0a222f3c5450c315920cb4a056ae605d00c10bc28f",
+                          "typeString": "literal_string \"TERMINATION: Conditions under which the lease can be terminated by either party.\""
+                        },
+                        "value": "TERMINATION: Conditions under which the lease can be terminated by either party."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_6e1134e0c74377298f94eb0a222f3c5450c315920cb4a056ae605d00c10bc28f",
+                          "typeString": "literal_string \"TERMINATION: Conditions under which the lease can be terminated by either party.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1168,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "3883:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1170,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "3896:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "3883:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1172,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "3883:125:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1173,
+                  "nodeType": "ExpressionStatement",
+                  "src": "3883:125:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "4c414e444c4f5244204541524c59205445524d494e4154494f4e3a204966206c616e646c6f7264207465726d696e61746573207468652061677265656d656e74206265666f7265207465726d696e6174696f6e20646174652c207468652074656e616e742077696c6c20626520616c6c6f77656420746f2073746179206f6e207468652070726f706572747920666f722031206d6f6e74682072656e742066726565206265666f7265206d6f76696e67206f75742e",
+                        "id": 1177,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "4053:183:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_b2bdb1aced54f65b7ee708b887c4125a6ad47447b46dfbe6f0efa9ae2b39b6fc",
+                          "typeString": "literal_string \"LANDLORD EARLY TERMINATION: If landlord terminates the agreement before termination date, the tenant will be allowed to stay on the property for 1 month rent free before moving out.\""
+                        },
+                        "value": "LANDLORD EARLY TERMINATION: If landlord terminates the agreement before termination date, the tenant will be allowed to stay on the property for 1 month rent free before moving out."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_b2bdb1aced54f65b7ee708b887c4125a6ad47447b46dfbe6f0efa9ae2b39b6fc",
+                          "typeString": "literal_string \"LANDLORD EARLY TERMINATION: If landlord terminates the agreement before termination date, the tenant will be allowed to stay on the property for 1 month rent free before moving out.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1174,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "4021:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1176,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "4034:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "4021:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1178,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "4021:226:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1179,
+                  "nodeType": "ExpressionStatement",
+                  "src": "4021:226:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "54454e414e54204541524c59205445524d494e4154494f4e3a2049662074656e616e74207465726d696e61746573207468652061677265656d656e74206265666f7265207465726d696e6174696f6e20646174652c20746865206c616e646c6f726420697320656e7469746c656420746f2031206d6f6e74682072656e742077686963682069732064656475637465642066726f6d20746865207365637572697479206465706f7369742e",
+                        "id": 1183,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "4292:173:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_07677c3a2a007ea31ed258a0bb907214ec286f50ab5a9e41fd748e4e08c92a16",
+                          "typeString": "literal_string \"TENANT EARLY TERMINATION: If tenant terminates the agreement before termination date, the landlord is entitled to 1 month rent which is deducted from the security deposit.\""
+                        },
+                        "value": "TENANT EARLY TERMINATION: If tenant terminates the agreement before termination date, the landlord is entitled to 1 month rent which is deducted from the security deposit."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_07677c3a2a007ea31ed258a0bb907214ec286f50ab5a9e41fd748e4e08c92a16",
+                          "typeString": "literal_string \"TENANT EARLY TERMINATION: If tenant terminates the agreement before termination date, the landlord is entitled to 1 month rent which is deducted from the security deposit.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1180,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "4260:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1182,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "4273:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "4260:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1184,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "4260:216:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1185,
+                  "nodeType": "ExpressionStatement",
+                  "src": "4260:216:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "52454e4557414c3a204166746572207465726d696e6174696f6e2064617465206120636f6e7472616374206d61792062652072656e65776564206279207468652074656e616e74206279207265626f6f6b696e67207468652070726f70657274792e",
+                        "id": 1189,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "4521:100:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_b84050dad767306fdd1da9f53890b13ece71cdc343a9624e5e91f9084915f56f",
+                          "typeString": "literal_string \"RENEWAL: After termination date a contract may be renewed by the tenant by rebooking the property.\""
+                        },
+                        "value": "RENEWAL: After termination date a contract may be renewed by the tenant by rebooking the property."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_b84050dad767306fdd1da9f53890b13ece71cdc343a9624e5e91f9084915f56f",
+                          "typeString": "literal_string \"RENEWAL: After termination date a contract may be renewed by the tenant by rebooking the property.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1186,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "4489:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1188,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "4502:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "4489:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1190,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "4489:143:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1191,
+                  "nodeType": "ExpressionStatement",
+                  "src": "4489:143:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "50524f504552545920464f522053414c453a2054656e616e742061677265657320746f20616c6c6f77207468652070726f706572747920746f2062652073686f776e20746f20706f74656e7469616c20627579657273206f722072656e7465727320776974682031206d6f6e7468206e6f7469636520616e642072656e74206672656520737461792c2066726f6d20746865206c616e646c6f72642e",
+                        "id": 1195,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "4677:158:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_9edbe1402050711349618092bada210b4929dd8bb992a6e33856f33ae4b5aab9",
+                          "typeString": "literal_string \"PROPERTY FOR SALE: Tenant agrees to allow the property to be shown to potential buyers or renters with 1 month notice and rent free stay, from the landlord.\""
+                        },
+                        "value": "PROPERTY FOR SALE: Tenant agrees to allow the property to be shown to potential buyers or renters with 1 month notice and rent free stay, from the landlord."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_9edbe1402050711349618092bada210b4929dd8bb992a6e33856f33ae4b5aab9",
+                          "typeString": "literal_string \"PROPERTY FOR SALE: Tenant agrees to allow the property to be shown to potential buyers or renters with 1 month notice and rent free stay, from the landlord.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1192,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "4645:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1194,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "4658:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "4645:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1196,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "4645:201:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1197,
+                  "nodeType": "ExpressionStatement",
+                  "src": "4645:201:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "4e4f4e2d4449534352494d494e4154494f4e3a20426f7468207061727469657320616772656520746f20636f6d706c792077697468206661697220686f7573696e67206c61777320616e64206e6f74206469736372696d696e617465206261736564206f6e20726163652c20636f6c6f722c2072656c6967696f6e2c207365782c206e6174696f6e616c206f726967696e2c206469736162696c6974792c206f722066616d696c69616c207374617475732e",
+                        "id": 1201,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "4891:180:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_f32e23434df66775a876f1d81b706c89dbe65a6e3ece2dabea292e5fb2730436",
+                          "typeString": "literal_string \"NON-DISCRIMINATION: Both parties agree to comply with fair housing laws and not discriminate based on race, color, religion, sex, national origin, disability, or familial status.\""
+                        },
+                        "value": "NON-DISCRIMINATION: Both parties agree to comply with fair housing laws and not discriminate based on race, color, religion, sex, national origin, disability, or familial status."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_f32e23434df66775a876f1d81b706c89dbe65a6e3ece2dabea292e5fb2730436",
+                          "typeString": "literal_string \"NON-DISCRIMINATION: Both parties agree to comply with fair housing laws and not discriminate based on race, color, religion, sex, national origin, disability, or familial status.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1198,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "4859:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1200,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "4872:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "4859:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1202,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "4859:223:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1203,
+                  "nodeType": "ExpressionStatement",
+                  "src": "4859:223:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "4e4f544943452044454c49564552593a204e6f746963657320616e6420636f6d6d756e69636174696f6e73206265747765656e206c616e646c6f726420616e642074656e616e742063616e2062652064656c69766572656420696e20706572736f6e2c206279206d61696c2c206f7220656c656374726f6e6963616c6c792e",
+                        "id": 1207,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "5127:129:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_f9b4993e69d19901b5bd9a4b542a8c8c96653067f1ab87c87ae84fe26b483553",
+                          "typeString": "literal_string \"NOTICE DELIVERY: Notices and communications between landlord and tenant can be delivered in person, by mail, or electronically.\""
+                        },
+                        "value": "NOTICE DELIVERY: Notices and communications between landlord and tenant can be delivered in person, by mail, or electronically."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_f9b4993e69d19901b5bd9a4b542a8c8c96653067f1ab87c87ae84fe26b483553",
+                          "typeString": "literal_string \"NOTICE DELIVERY: Notices and communications between landlord and tenant can be delivered in person, by mail, or electronically.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1204,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "5095:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1206,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "5108:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "5095:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1208,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "5095:172:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1209,
+                  "nodeType": "ExpressionStatement",
+                  "src": "5095:172:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "4e4f5449434520504552494f443a2041206e6f7469636520706572696f64206f662031206d6f6e7468206d75737420626520697373756564206265666f7265207465726d696e6174696e6720746865206c6561736520627920626f7468206c616e646c6f726420616e642074656e616e742e",
+                        "id": 1213,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "5312:116:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_c072ab13022c89d41ed5faee74d63eba949f496ccecdbb24cb6bfbb9a386e2c7",
+                          "typeString": "literal_string \"NOTICE PERIOD: A notice period of 1 month must be issued before terminating the lease by both landlord and tenant.\""
+                        },
+                        "value": "NOTICE PERIOD: A notice period of 1 month must be issued before terminating the lease by both landlord and tenant."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_c072ab13022c89d41ed5faee74d63eba949f496ccecdbb24cb6bfbb9a386e2c7",
+                          "typeString": "literal_string \"NOTICE PERIOD: A notice period of 1 month must be issued before terminating the lease by both landlord and tenant.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1210,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "5280:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1212,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "5293:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "5280:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1214,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "5280:159:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1215,
+                  "nodeType": "ExpressionStatement",
+                  "src": "5280:159:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "4e4f54494345204f462053414c453a2054656e616e74206d757374206265206e6f74696669656420696e20616476616e6365206966207468652070726f7065727479206973206265696e6720736f6c642c20776974682064657461696c73206f6e20746865206e6577206f776e6572277320726573706f6e736962696c69746965732e",
+                        "id": 1219,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "5484:133:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_438ab95663eac0497f0edd1e4edc25d6366304f330f1328c76c2dbd9cf3a31bd",
+                          "typeString": "literal_string \"NOTICE OF SALE: Tenant must be notified in advance if the property is being sold, with details on the new owner's responsibilities.\""
+                        },
+                        "value": "NOTICE OF SALE: Tenant must be notified in advance if the property is being sold, with details on the new owner's responsibilities."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_438ab95663eac0497f0edd1e4edc25d6366304f330f1328c76c2dbd9cf3a31bd",
+                          "typeString": "literal_string \"NOTICE OF SALE: Tenant must be notified in advance if the property is being sold, with details on the new owner's responsibilities.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1216,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "5452:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1218,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "5465:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "5452:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1220,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "5452:176:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1221,
+                  "nodeType": "ExpressionStatement",
+                  "src": "5452:176:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "5349474e4154555245533a20426f74682070617274696573206d75737420617070726f7665207468652061677265656d656e7420746f206d616b65206974206c6567616c6c792062696e64696e672e",
+                        "id": 1225,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "5673:81:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_37d13610b6630c8cbeb41c605adade9815fefbf8315cc8b912bb45148ebb6ed7",
+                          "typeString": "literal_string \"SIGNATURES: Both parties must approve the agreement to make it legally binding.\""
+                        },
+                        "value": "SIGNATURES: Both parties must approve the agreement to make it legally binding."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_37d13610b6630c8cbeb41c605adade9815fefbf8315cc8b912bb45148ebb6ed7",
+                          "typeString": "literal_string \"SIGNATURES: Both parties must approve the agreement to make it legally binding.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1222,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "5641:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1224,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "5654:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "5641:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1226,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "5641:124:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1227,
+                  "nodeType": "ExpressionStatement",
+                  "src": "5641:124:1"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "454e544952452041475245454d454e543a205468697320636f6e747261637420636f6e73746974757465732074686520656e746972652061677265656d656e74206265747765656e20746865207061727469657320616e64207375706572736564657320616e79207072696f722061677265656d656e7473206f7220756e6465727374616e64696e67732e",
+                        "id": 1231,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "5810:141:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_4947f37ae4bf1336a0fb995b5c24c115b22f96b2adf6f1771d4d4fdc4697adfb",
+                          "typeString": "literal_string \"ENTIRE AGREEMENT: This contract constitutes the entire agreement between the parties and supersedes any prior agreements or understandings.\""
+                        },
+                        "value": "ENTIRE AGREEMENT: This contract constitutes the entire agreement between the parties and supersedes any prior agreements or understandings."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_4947f37ae4bf1336a0fb995b5c24c115b22f96b2adf6f1771d4d4fdc4697adfb",
+                          "typeString": "literal_string \"ENTIRE AGREEMENT: This contract constitutes the entire agreement between the parties and supersedes any prior agreements or understandings.\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 1228,
+                        "name": "defaultTerms",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1033,
+                        "src": "5778:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                          "typeString": "string storage ref[] storage ref"
+                        }
+                      },
+                      "id": 1230,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "5791:4:1",
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "src": "5778:17:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_string_storage_$dyn_storage_ptr_$_t_string_storage_$returns$__$attached_to$_t_array$_t_string_storage_$dyn_storage_ptr_$",
+                        "typeString": "function (string storage ref[] storage pointer,string storage ref)"
+                      }
+                    },
+                    "id": 1232,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "5778:184:1",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1233,
+                  "nodeType": "ExpressionStatement",
+                  "src": "5778:184:1"
+                }
+              ]
+            },
+            "id": 1235,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1034,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "138:2:1"
+            },
+            "returnParameters": {
+              "id": 1035,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "141:0:1"
+            },
+            "scope": 1245,
+            "src": "127:5843:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1243,
+              "nodeType": "Block",
+              "src": "6045:38:1",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 1241,
+                    "name": "defaultTerms",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 1033,
+                    "src": "6063:12:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                      "typeString": "string storage ref[] storage ref"
+                    }
+                  },
+                  "functionReturnParameters": 1240,
+                  "id": 1242,
+                  "nodeType": "Return",
+                  "src": "6056:19:1"
+                }
+              ]
+            },
+            "functionSelector": "c6418ab9",
+            "id": 1244,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getDefaultTerms",
+            "nameLocation": "5987:15:1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1236,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "6002:2:1"
+            },
+            "returnParameters": {
+              "id": 1240,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1239,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1244,
+                  "src": "6028:15:1",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_string_memory_ptr_$dyn_memory_ptr",
+                    "typeString": "string[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 1237,
+                      "name": "string",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "6028:6:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage_ptr",
+                        "typeString": "string"
+                      }
+                    },
+                    "id": 1238,
+                    "nodeType": "ArrayTypeName",
+                    "src": "6028:8:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_string_storage_$dyn_storage_ptr",
+                      "typeString": "string[]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "6027:17:1"
+            },
+            "scope": 1245,
+            "src": "5978:105:1",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 1246,
+        "src": "61:6025:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:6055:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.19+commit.7dd6d404.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x382Cd82004464c131B3c9f1c1E0E6970A607b8Ea",
+      "transactionHash": "0x2359856d3bcb6ab3676c596efb0a98dd32ea4b0af69006b326280ea58fe5a719"
+    }
+  },
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-04-25T05:08:27.449Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
